@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  justify-content: flex-end;
+  padding: 32px 16px 12px;
+
+  .manager-header__wrapper {
+    display: flex;
+    align-items: center;
+
+    ui-button {
+      margin-left: 12px;
+    }
+  }
+}

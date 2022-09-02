@@ -1,5 +1,14 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "core": "libs/core",
+    "features": "libs/features",
+    "ibs-cmi": "apps/ibs-cmi",
+    "scraper": "apps/scraper",
+    "ui": "libs/ui",
+    "uploader-service": "apps/uploader-service",
+    "utils": "libs/utils",
+    "website": "apps/website"
+  }
 }

@@ -1,0 +1,36 @@
+:host {
+  .internation-phone-input__wrapper {
+    padding-bottom: 1rem;
+
+    .internation-phone-input__label {
+      left: 0;
+      line-height: 16px;
+      padding-bottom: 8px;
+    }
+
+    .internation-phone-input__field {
+      width: 100%;
+      display: flex;
+
+      .internation-phone-input__code,
+      .internation-phone-input__number {
+        border: 0;
+        background-color: var(--IBS--colour--background--input--enabled);
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        color: var(--IBS--colour--text--primary);
+      }
+
+      .internation-phone-input__code {
+        border-radius: 4px 0 0 4px;
+        padding: 8px 8px;
+      }
+      .internation-phone-input__number {
+        border-radius: 0 4px 4px 0;
+        padding: 8px 8px;
+        flex-grow: 1;
+      }
+    }
+  }
+}

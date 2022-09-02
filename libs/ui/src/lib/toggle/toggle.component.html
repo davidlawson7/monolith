@@ -1,0 +1,11 @@
+<div class="toggle__wrapper">
+  <label class="toggle__label">
+    <input
+      class="toggle__checkbox"
+      type="checkbox"
+      [(ngModel)]="value"
+      (ngModelChange)="onChange($event)"
+    />
+    <span class="toggle__slider"></span>
+  </label>
+</div>

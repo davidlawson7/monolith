@@ -1,0 +1,20 @@
+<div class="login-page__wrapper">
+  <div class="login-page__logo">
+    <ui-icon [icon]="logo" [size]="65"></ui-icon>
+    <h1 class="login-page__logo-title">IBS Manager</h1>
+  </div>
+  <h2 class="login-page__subtext">Log in to your account</h2>
+  <internation-phone-input
+    [countryPhoneCodes]="codes"
+    [prefilledData]="{ code: login.code, number: login.mobile }"
+    (phoneNumberDetails)="savePhone($event)"
+  ></internation-phone-input>
+  <ui-input
+    [label]="'Password'"
+    [name]="'Password'"
+    [type]="'password'"
+    (keyDown)="savePassword($event)"
+    [prefilledData]="password"
+  ></ui-input>
+  <ui-button [width]="'full'" (clicked)="onLogIn()">Log in</ui-button>
+</div>

@@ -1,0 +1,22 @@
+<div *ngIf="mainMenu$ | async as pages" class="sidebar__wrapper">
+  <div class="sidebar__logo">
+    <a class="sidebar__logo-link">
+      <ui-icon [icon]="logo" [size]="45"></ui-icon>
+      <h1 class="sidebar__logo-title">manager</h1>
+    </a>
+  </div>
+
+  <nav class="sidebar__main-nav">
+    <nav-item
+      *ngFor="let page of pages"
+      [icon]="page.icon"
+      [selected]="page.isSelected"
+      (click)="changePage(page.name)"
+      >{{ page.name | titlecase }}</nav-item
+    >
+  </nav>
+
+  <div class="sidebar__user-area">
+    <nav-item [photo]="profilePhoto">{{ 'David Lawson' | titlecase }}</nav-item>
+  </div>
+</div>

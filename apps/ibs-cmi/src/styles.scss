@@ -1,0 +1,131 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+  //   // COLOURS
+  //   --IBS--colour--interactive--primary--accent: #1ce783;
+  //   --IBS--colour--background--app: #eee;
+  //   --IBS--colour--background--nav: #182125;
+  //   --IBS--colour--background--nav--selected: #2a363c;
+  //   --IBS--colour--text--nav: #e9ecec;
+  //   --IBS--colour--text--primary: #e9ecec;
+  //   --IBS--colour--text--button--primary: #000;
+  //   --IBS--colour--text--button--secondary: #e9ecec;
+  //   --IBS--colour--border--subtle: #2a363c;
+  //   --IBS--colour--background--input--enabled: #3a444b;
+  //   --IBS--colour--background--button--primary--hover: #d0d6d7;
+  //   --IBS--colour--background--button--primary--enabled: #e9ecec;
+  //   --IBS--colour--border--button--primary--default: #e9ecec;
+
+  // FONTS
+  --IBS--typography--body--font-family: 'Inter', 'Segoe UI', 'Tahoma',
+    sans-serif;
+  --IBS--typography--heading--font-family: 'Inter', 'Segoe UI', 'Tahoma',
+    sans-serif;
+  --IBS--typography--title--font-family: 'Amatic', serif;
+}
+
+[data-theme='light'] {
+  // General
+  --IBS--colour--background--app: #eee;
+
+  --IBS--colour-primary--1: #d5d5d5;
+  --IBS--colour-primary--2: #eee;
+  --IBS--colour-primary--3: #fff;
+
+  // Nav
+  --IBS--colour--background--nav: #fff;
+  --IBS--colour--background--nav--selected: #fef7f1;
+  --IBS--colour--text--nav: #3c4449;
+
+  // Highlights
+  --IBS--colour--interactive--primary--accent: #e7831c;
+
+  // Text
+  --IBS--colour--text--primary: #3c4449;
+
+  // Buttons
+  --IBS--colour--text--button--primary: #000;
+  --IBS--colour--text--button--secondary: #e9ecec;
+  --IBS--colour--background--button--primary--hover: #d0d6d7;
+  --IBS--colour--background--button--primary--enabled: #e9ecec;
+  --IBS--colour--border--button--primary--default: #e9ecec;
+
+  // Border
+  --IBS--colour--border--subtle: #e4e5e7;
+
+  // Inputs
+  --IBS--colour--background--input--enabled: #3a444b;
+
+  // Toggle
+  --IBS--colour--toggle--primary: #fff;
+  --IBS--colour--toggle--secondary: #e7831c;
+}
+
+[data-theme='dark'] {
+  // General
+  --IBS--colour--background--app: #0d1212;
+
+  --IBS--colour-primary--1: #0d1212;
+  --IBS--colour-primary--2: #182125;
+  --IBS--colour-primary--3: #2a363c;
+
+  // Nav
+  --IBS--colour--background--nav: #182125;
+  --IBS--colour--background--nav--selected: #2a363c;
+  --IBS--colour--text--nav: #e9ecec;
+
+  // Highlights
+  --IBS--colour--interactive--primary--accent: #1ce783;
+
+  // Text
+  --IBS--colour--text--primary: #e9ecec;
+
+  // Buttons
+  --IBS--colour--text--button--primary: #000;
+  --IBS--colour--text--button--secondary: #e9ecec;
+  --IBS--colour--background--button--primary--hover: #d0d6d7;
+  --IBS--colour--background--button--primary--enabled: #e9ecec;
+  --IBS--colour--border--button--primary--default: #e9ecec;
+
+  // Borders
+  --IBS--colour--border--subtle: #2a363c;
+
+  // Inputs
+  --IBS--colour--background--input--enabled: #3a444b;
+
+  // Toggle
+  --IBS--colour--toggle--primary: #2a363c;
+  --IBS--colour--toggle--secondary: #182125;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(./assets/fonts/inter/Inter-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  src: url(./assets/fonts/inter/Inter-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  src: url(./assets/fonts/inter/Inter-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Amatic';
+  src: url(./assets/fonts/amatic/AmaticSC-Regular.ttf) format('truetype');
+}
+
+* {
+  outline-style: solid;
+  outline-width: 0;
+}
+
+body {
+  margin: 0;
+  font-size: 12px;
+}

@@ -1,0 +1,29 @@
+<div class="internation-phone-input__wrapper">
+  <div class="internation-phone-input__label">
+    <label [for]="'int_phone_number'">{{ label }}</label>
+  </div>
+
+  <div class="internation-phone-input__field">
+    <select
+      *ngIf="countryPhoneCodes"
+      #intcode
+      class="internation-phone-input__code"
+      [(ngModel)]="intCode"
+      (ngModelChange)="onChange()"
+      [attr.disabled]="prefilledData ? true : null"
+    >
+      <option *ngFor="let code of countryPhoneCodes" [ngValue]="code">
+        {{ code }}
+      </option>
+    </select>
+    <input
+      class="internation-phone-input__number"
+      type="tel"
+      name="int_phone_number"
+      placeholder="eg. 0412345678"
+      [(ngModel)]="phoneNumber"
+      (ngModelChange)="onChange()"
+      [attr.disabled]="prefilledData ? true : null"
+    />
+  </div>
+</div>

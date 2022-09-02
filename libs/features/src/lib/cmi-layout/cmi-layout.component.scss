@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+  .cmi-layout__wrapper {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .cmi-layout__sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .cmi-layout__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+}

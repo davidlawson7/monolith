@@ -1,0 +1,9 @@
+{
+  "executors": {
+    "bundle": {
+      "implementation": "./packager",
+      "schema": "./schema.json",
+      "description": "Packages the node project for deployment to lambda."
+    }
+  }
+}

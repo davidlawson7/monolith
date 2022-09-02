@@ -1,0 +1,135 @@
+---
+# A pokemon
+number: 1
+name:
+  en: bulbasaur
+  ja: fushigidane
+  fr: bulbizarre
+  de: bisasam
+  ko: 이상해씨
+
+# General details around the pokemon
+classification: Seed Pokémon
+captureRate: 45
+weight:
+  unit: kg
+  value: 6.9
+height:
+  unit: m
+  value: 0.7
+type:
+  - grass
+  - poison
+expGrowth:
+  points: 1059860
+  rank: Medium Slow
+
+# This pokemons stats
+stats:
+  base:
+    hp: 45
+    attack: 49
+    defense: 49
+    special: 65
+    speed: 45
+    total: 253
+  max:
+    lvl50:
+      hp:
+        min: 105
+        max: 151
+      attack:
+        min: 54
+        max: 100
+      defense:
+        min: 54
+        max: 100
+      special:
+        min: 70
+        max: 116
+      speed:
+        min: 50
+        max: 96
+    lvl100:
+      hp:
+        min: 200
+        max: 293
+      attack:
+        min: 103
+        max: 196
+      defense:
+        min: 103
+        max: 196
+      special:
+        min: 135
+        max: 228
+      speed:
+        min: 95
+        max: 188
+
+# The effort values a pokemon receives afte defeating the pokemon
+effortValuesEarned:
+  hp: 45
+  attack: 49
+  defense: 49
+  special: 65
+  speed: 45
+
+# A damanage calculation list, showing the damage taken based on its typing for the generation
+damageTaken:
+  - type: normal
+    value: 1
+  - type: fire
+    value: 2
+  - type: water
+    value: 0.5
+
+# A tree to contain evolution data for the species
+evolutionaryChain:
+  number: 1
+  method:
+  base: true
+  current: true
+  next:
+    - number: 2
+      method: 16
+      base: false
+      current: false
+      next:
+        - number: 3
+          method: 32
+          base: false
+          current: false
+
+# Moves learnt via level up
+learntMoves:
+  - name: razor leaf
+    type: grass
+    accuracy: 95
+    pp: 25
+    description: A GRASS-type attack that sends sharp-edged leaves at the target. Likely to get a critical hit.
+    level: 27
+    attack: 55
+  - name: growth
+    type: normal
+    accuracy: 100
+    pp: 40
+    description: Raises SPECIAL to make special attacks stronger and enhance protection against special moves.
+    level: 34
+
+taughtMoves:
+  - label: TM08
+    name: body slam
+    type: normal
+    accuracy: 100
+    pp: 15
+    description: A NORMAL-type attack. Has a one-in-three chance of paralyzing the target if it connects.
+    attack: 85
+    effect: 33
+  - label: TM09
+    name: take down
+    type: normal
+    accuracy: 85
+    pp: 20
+    description: A charging attack. One quarter of the damage it inflicts comes back to hurt the attacker.
+    attack: 90

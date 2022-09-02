@@ -1,0 +1,11 @@
+<div class="button__wrapper">
+  <button
+    [ngClass]="
+      width === 'full' ? 'button__button button__full_button' : 'button__button'
+    "
+    type="button"
+    (click)="clicked.emit()"
+  >
+    <ng-content></ng-content>
+  </button>
+</div>

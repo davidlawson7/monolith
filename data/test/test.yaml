@@ -1,0 +1,258 @@
+number: 1
+name:
+  en: Bulb
+  ja: jap
+  ko: ko
+  fr: fre
+  de: german
+classification: a class
+captureRate: 45
+weight:
+  unit: kg
+  value: 4
+height:
+  unit: height
+  value: 2
+type:
+  - dark
+  - fighting
+expGrowth:
+  rank: Medium Slow
+  points: 1059860
+effortValuesEarned:
+  hp: 10
+  attack: 20
+  defense: 20
+  special: 20
+  speed: 20
+damageTaken: {}
+evolutionaryChain:
+  next: []
+  number: 1
+  baseForm: true
+stats:
+  base:
+    hp: 10
+    attack: 20
+    defense: 20
+    special: 20
+    speed: 20
+  level50:
+    hp:
+      min: 10
+      max: 20
+    attack:
+      min: 10
+      max: 20
+    defense:
+      min: 10
+      max: 20
+    special:
+      min: 10
+      max: 20
+    speed:
+      min: 10
+      max: 20
+  level100:
+    hp:
+      min: 10
+      max: 20
+    attack:
+      min: 10
+      max: 20
+    defense:
+      min: 10
+      max: 20
+    special:
+      min: 10
+      max: 20
+    speed:
+      min: 10
+      max: 20
+learntMoves:
+  - name: tackle
+    type: normal
+    accuracy: 95
+    pp: 35
+    description: A NORMAL-type attack. Many Pokémon know this attack right from the start.
+    level: .nan
+    attack: 35
+  - name: growl
+    type: normal
+    accuracy: 100
+    pp: 40
+    description: A technique that lowers the target's ATTACK power. Can normally be
+      used up to six times.
+    level: .nan
+  - name: leech seed
+    type: grass
+    accuracy: 90
+    pp: 10
+    description: Plants a seed on the target Pokémon. The seed slowly drains the
+      target's HP for the attacker.
+    level: 7
+  - name: vine whip
+    type: grass
+    accuracy: 100
+    pp: 10
+    description: A GRASS-type attack. The Pokémon uses its cruel whips to strike the
+      opponent.
+    level: 13
+    attack: 35
+  - name: poison powder
+    type: poison
+    accuracy: 74
+    pp: 35
+    description: A technique that poisons the target. If poisoned, the victim loses
+      HP steadily.
+    level: 20
+    effect: 20
+  - name: razor leaf
+    type: grass
+    accuracy: 95
+    pp: 25
+    description: A GRASS-type attack that sends sharp-edged leaves at the target.
+      Likely to get a critical hit.
+    level: 27
+    attack: 55
+  - name: growth
+    type: normal
+    accuracy: 100
+    pp: 40
+    description: Raises SPECIAL to make special attacks stronger and enhance
+      protection against special moves.
+    level: 34
+  - name: sleep powder
+    type: grass
+    accuracy: 75
+    pp: 15
+    description: Induces sleep. A Pokémon will stay asleep for several turns if an
+      item isn't used to wake it.
+    level: 41
+  - name: solar beam
+    type: grass
+    accuracy: 100
+    pp: 10
+    description: The strongest GRASS-type attack. Energy is absorbed in the first
+      turn, then fired the next turn.
+    level: 48
+    attack: 120
+taughtMoves:
+  - label: TM03
+    name: swords dance
+    type: normal
+    accuracy: 100
+    pp: 30
+    description: A special move that greatly boosts the user's ATTACK power. Can
+      normally be used up to three times.
+  - label: TM06
+    name: toxic
+    type: poison
+    accuracy: 85
+    pp: 10
+    description: A technique that badly poisons the target. The amount of damage
+      from the poison increases every turn.
+  - label: TM08
+    name: body slam
+    type: normal
+    accuracy: 100
+    pp: 15
+    description: A NORMAL-type attack. Has a one-in-three chance of paralyzing the
+      target if it connects.
+    attack: 85
+    effect: 33
+  - label: TM09
+    name: take down
+    type: normal
+    accuracy: 85
+    pp: 20
+    description: A charging attack. One quarter of the damage it inflicts comes back
+      to hurt the attacker.
+    attack: 90
+  - label: TM10
+    name: double-edge
+    type: normal
+    accuracy: 100
+    pp: 15
+    description: A charging tackle attack. One quarter of the damage it inflicts
+      comes back to hurt the attacker.
+    attack: 100
+  - label: TM20
+    name: rage
+    type: normal
+    accuracy: 100
+    pp: 20
+    description: A non-stop attack move. The user's ATTACK power increases every
+      time it sustains damage.
+    attack: 20
+  - label: TM21
+    name: mega drain
+    type: grass
+    accuracy: 100
+    pp: 10
+    description: A GRASS-type attack. It adds half the HP it drained from the target
+      to the attacker's HP.
+    attack: 40
+  - label: TM22
+    name: solar beam
+    type: grass
+    accuracy: 100
+    pp: 10
+    description: The strongest GRASS-type attack. Energy is absorbed in the first
+      turn, then fired the next turn.
+    attack: 120
+  - label: TM31
+    name: mimic
+    type: normal
+    accuracy: 100
+    pp: 10
+    description: A move for learning one of the opponent's moves, for use during
+      that battle only.
+  - label: TM32
+    name: double team
+    type: normal
+    accuracy: 100
+    pp: 15
+    description: Creates illusionary copies of the user. The copies disorient the
+      enemy, reducing its accuracy.
+  - label: TM33
+    name: reflect
+    type: psychic
+    accuracy: 100
+    pp: 20
+    description: Reduces damage from physical attacks by about half. A special
+      PSYCHIC-type technique.
+  - label: TM34
+    name: bide
+    type: normal
+    accuracy: 100
+    pp: 10
+    description: The user waits for several turns. At the end, it returns double the
+      damage it received.
+  - label: TM44
+    name: rest
+    type: psychic
+    accuracy: 100
+    pp: 10
+    description: The user takes a nap to fully restore its HP and recover from any
+      status abnormalities.
+  - label: TM50
+    name: substitute
+    type: normal
+    accuracy: 100
+    pp: 10
+    description: Uses 1/4 of the user's maximum HP to create a substitute that takes
+      the opponent's attacks.
+  - label: HM01
+    name: cut
+    type: normal
+    accuracy: 95
+    pp: 30
+    description: A NORMAL-type attack. Also used for cutting small bushes to open new paths.
+    attack: 50
+locations:
+  red: Starter Pokémon
+  greenJp: Starter Pokémon
+  blue: Starter Pokémon
+  blueJp: Starter Pokémon
+  yellow: Gift in Cerulean City

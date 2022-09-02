@@ -1,0 +1,36 @@
+:host {
+  position: relative;
+
+  .input__wrapper {
+    padding-bottom: 1rem;
+  }
+
+  .input__label {
+    // position: absolute;
+    // top: -16px;
+    left: 0;
+    line-height: 16px;
+    padding-bottom: 8px;
+  }
+
+  .input__input-field {
+    appearance: none;
+    background-color: var(--IBS--colour--background--input--enabled);
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: var(--IBS--colour--text--primary);
+    display: inline-block;
+    flex: 1 1 0%;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: 16px;
+    margin: 0;
+    min-width: 0;
+    outline-offset: 2px;
+    padding: 8px 8px;
+    position: relative;
+    width: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+<div class="input__wrapper">
+  <div *ngIf="label" class="input__label">
+    <label [for]="name">
+      {{ label }}
+    </label>
+  </div>
+
+  <div class="input__field">
+    <div class="input__prepend"></div>
+
+    <div class="input__input-field-wrapper">
+      <input
+        #uiinput
+        class="input__input-field"
+        [type]="type"
+        [name]="name"
+        [(ngModel)]="value"
+        (ngModelChange)="onChange($event)"
+        (keydown.enter)="onChange($event)"
+        [attr.disabled]="prefilledData ? true : null"
+      />
+    </div>
+
+    <div class="input__postpend"></div>
+  </div>
+</div>

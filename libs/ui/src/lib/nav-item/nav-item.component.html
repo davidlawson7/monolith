@@ -1,0 +1,19 @@
+<a
+  [class]="
+    selected ? 'nav-item__link nav-item__link-selected' : 'nav-item__link'
+  "
+>
+  <div *ngIf="icon" class="nav-item__icon">
+    <ui-icon [icon]="icon"></ui-icon>
+  </div>
+
+  <div *ngIf="photo" class="nav-item__photo">
+    <img class="nav-item__img" [src]="photo" alt="photo" />
+  </div>
+
+  <div class="nav-item__text-wrapper">
+    <span class="nav-item__text">
+      <ng-content></ng-content>
+    </span>
+  </div>
+</a>
